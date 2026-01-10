@@ -164,7 +164,25 @@ Your private key content goes here...
 
 MxVPN is available on Google Play:
 
-[https://play.google.com/store/apps/details?id=io.selfwallet.mxvpn](https://play.google.com/store/apps/details?id=io.selfwallet.mxvpn)
+## Downloads
+
+| Platform | File | Version |
+|----------|------|---------|
+| Linux (Debian/Ubuntu) | `mxvpn_1.0.1_amd64.deb` | 1.0.1 |
+| macOS | `MxVPN-1.0.1-macOS.dmg` | 1.0.1 |
+| Android | `MxVPN_v1.4.4.apk` | 1.4.4 |
+
+Download from [Releases](https://github.com/selfwallet-ltd/mxvpn-server-setup/releases).
+
+### Verify checksums
+```bash
+sha256sum -c SHA256SUMS
+```
+
+### Install (Linux)
+```bash
+sudo dpkg -i mxvpn_1.0.1_amd64.deb
+```
 
 ---
 
